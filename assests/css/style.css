@@ -1,0 +1,1177 @@
+@import url("https://use.typekit.net/uyt0szp.css");
+
+/*Font Poppins*/
+body {
+    background: #0F0B33;
+    font-family: poppins, sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+p,
+span {
+    /*  Gray/500   */
+    color: #ADB9C7;
+    font-weight: 400;
+}
+
+.gray-200 {
+    color: #E7ECF2;
+}
+
+.bg-gray {
+    background-color: #D5DDE5 !important;
+}
+
+.bg-primary {
+    background-color: #1E50FF !important;
+}
+
+a {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+img {
+    display: inline-block;
+}
+
+.nav-link {
+    color: #ADB9C7 !important;
+}
+
+.btn-blue {
+    background-color: #1E50FF;
+    font-weight: 600;
+    border-radius: 16px;
+    padding: 12px 41.5px !important;
+    transition: all 0.8s;
+}
+
+.btn-blue:hover {
+    background-color: unset;
+    border: 1px solid #1E50FF;
+}
+
+/* scroll */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #EBEBEB;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 16px;
+    background-color: #343444;
+}
+
+.timer span {
+    color: #fff !important;
+    font-weight: 700;
+}
+
+/* /scroll */
+/**********************************************************************************************************************/
+
+
+
+/*********************** HEADER START***********************/
+header {
+    background-color: #0F0B33;
+}
+
+nav ul {
+    gap: 12px;
+}
+
+nav ul li a {
+    font-weight: 600;
+    padding: 0px !important;
+}
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+    transition: all 0.5s;
+}
+
+nav ul li a:hover {
+    color: #FFF !important;
+}
+
+/* stroke */
+nav.stroke ul li a {
+    position: relative;
+}
+
+nav.stroke ul li a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 30px;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #1E50FF;
+    height: 2px;
+}
+
+nav.stroke ul li a:hover:after {
+    width: 100%;
+}
+
+header ul {
+    column-gap: 32px;
+}
+
+.button-blue {
+    color: white;
+    font-weight: 600;
+    border: 1px solid #1E50FF;
+    border-radius: 12px;
+    transition: all 0.8s;
+    box-shadow: none;
+
+}
+
+header .modal-content {
+    background-color: #242424;
+}
+
+header .modal-header {
+    border-color: #4F4F4F;
+}
+
+.button-blue:hover {
+    color: white;
+    background-color: #1E50FF;
+}
+
+header .navbar-brand span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.active {
+    color: white !important;
+}
+
+header .modal .dropdown-menu {
+    min-width: 0px;
+}
+
+header .modal ul li a:hover {
+    color: #000 !important;
+    background: none;
+}
+
+header .metamask,
+.WalletConnect {
+    background-color: #434343;
+    border-radius: 12px;
+    color: white;
+    cursor: pointer;
+}
+
+header .WalletConnect img,
+.metamask img {
+    width: 55px;
+    height: 55px;
+}
+
+header .WalletConnect span,
+.metamask span {
+    font-size: 14px;
+}
+
+header .social-platform {
+    border-top: 1px solid #4F4F4F;
+    padding-top: 15px;
+}
+
+header .social-platform img {
+    width: 48px;
+    height: 48px;
+}
+
+@media screen and (max-width:768px) {
+    .stroke ul li a:after {
+        width: 0px !important;
+    }
+}
+
+/*********************** /HEADER END ***********************/
+
+
+
+/*********************** Hero Start ***********************/
+/* Carousel Start */
+.hero .ftco-no-pt {
+    padding-top: 0;
+}
+
+.hero.ftco-no-pb {
+    padding-bottom: 0;
+}
+
+.hero .img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 24px;
+
+}
+
+.icon-send {
+    background: url("/assests/img/icon/send-icon.png") no-repeat;
+    width: 24px;
+    height: 24px;
+}
+
+.hero .owl-carousel {
+    position: relative;
+}
+
+.hero .owl-carousel .owl-item {
+    opacity: 1;
+}
+
+.hero .owl-carousel .owl-item.active {
+    opacity: 1;
+}
+
+.hero .owl-carousel .owl-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+.hero .owl-carousel .owl-nav .owl-prev,
+.hero .owl-carousel .owl-nav .owl-next {
+    position: absolute;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin-top: -60px;
+    color: rgba(0, 0, 0, 0.1) !important;
+    -webkit-transition: 0.7s;
+    -o-transition: 0.7s;
+    transition: 0.7s;
+    opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    .hero .owl-carousel .owl-nav .owl-prev,
+    .hero .owl-carousel .owl-nav .owl-next {
+        -webkit-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+}
+
+.hero .owl-carousel .owl-nav .owl-prev {
+    left: 0;
+}
+
+.hero .owl-carousel .owl-nav .owl-next {
+    right: 0;
+}
+
+
+.hero .owl-carousel .owl-dots .owl-dot {
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.hero .owl-carousel .owl-dots .owl-dot:hover,
+.hero .owl-carousel .owl-dots .owl-dot:focus {
+    outline: none !important;
+}
+
+.hero .owl-carousel .owl-dots .owl-dot {
+    display: none;
+}
+
+.hero .owl-carousel:hover .owl-nav .owl-prev,
+.owl-carousel:hover .owl-nav .owl-next {
+    opacity: 1;
+}
+
+.hero .owl-carousel:hover .owl-nav .owl-prev {
+    left: 55px;
+}
+
+.hero .owl-carousel:hover .owl-nav .owl-next {
+    right: 55px;
+}
+
+.hero .owl-carousel.owl-drag .owl-item {
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+}
+
+.hero .work {
+    width: 100%;
+}
+
+.hero .work .img {
+    width: 100%;
+    height: 352px;
+    cursor: pointer;
+    position: relative;
+    -webkit-box-shadow: 0px 20px 35px -30px rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: 0px 20px 35px -30px rgba(0, 0, 0, 0.26);
+    box-shadow: 0px 20px 35px -30px rgba(0, 0, 0, 0.26);
+    transition: all 0.5s;
+}
+
+.hero .work .img .icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #fff;
+    display: block;
+    opacity: 0;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .hero .work .img .icon {
+        -webkit-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+}
+
+
+.hero .work .text h4 a {
+    color: #151411;
+}
+
+.hero .work .text span:nth-child(4) {
+    color: #151411;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.hero .work:hover .img .icon {
+    opacity: 1;
+}
+
+.hero .portfolio img {
+    transition: all 0.35s;
+}
+
+.hero .portfolio img:hover {
+    opacity: 0.8 !important;
+
+}
+
+/*********************** Hero End ***********************/
+
+
+
+/*********************** Create and sell your NFTs START ***********************/
+.creat_sell_nft .cards {
+    background-color: #272D37;
+    border: 1px solid #272D37;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: all 0.8s;
+
+}
+
+.creat_sell_nft .cards:hover {
+    background-color: inherit;
+
+}
+
+.creat_sell_nft .card-body p {
+    transition: all 0.8s;
+}
+
+.creat_sell_nft .cards:hover .card-body p {
+    color: #E7ECF2 !important;
+}
+
+.icon-creat-and-sel-nfts {
+    background: url("/assests/img/icon/icon-creat-and-sel-nfts.png") no-repeat;
+    width: 80px;
+    height: 80px;
+}
+
+/*********************** /Create and sell your NFTs End ***********************/
+
+
+
+
+/*********************** Live Auctions Start ***********************/
+.card {
+    background-color: #272D37;
+    border-radius: 24px;
+}
+
+.card h4 {
+    font-size: 16px;
+}
+
+
+/* Like Button Start */
+.like {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+    overflow: hidden;
+}
+
+.like-button {
+    position: absolute;
+    top: 48px;
+    right: 48px;
+}
+
+.like:hover {
+    background: #fff;
+    transition: background-color 0.25s ease;
+}
+
+.liked .like-icon-state {
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewbox='0 0 100 100'><path fill='%23de3618' d='M50,88.87 C76.67,70.46 90,53.9 90,39.17 C90,17.08 63.12,3.84 50,27.63 C38.875,3.85 10,17.08 10,39.17 C10,53.9 23.33,70.46 50,88.87 Z'/></svg>");
+}
+
+
+.unliked .like-icon-state {
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewbox='0 0 100 100'><path fill='none' stroke='%23666' stroke-width='5' d='M50,88.87 C76.67,70.46 90,53.9 90,39.17 C90,17.08 63.12,3.84 50,27.63 C38.875,3.85 10,17.08 10,39.17 C10,53.9 23.33,70.46 50,88.87 Z'/></svg>");
+}
+
+.like span {
+    text-indent: -1000px;
+    font-size: 1px;
+}
+
+.like-icon {
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    top: 15%;
+    right: 15%;
+    bottom: 15%;
+    left: 15%;
+}
+
+.liked .like-icon-state {
+    transform: scale(0);
+}
+
+.liked .like-icon-state {
+    opacity: 0;
+    -webkit-animation: 1.2s like-animation both cubic-bezier(0.45, 0.05, 0.55, 0.95);
+    animation: 1.2s like-animation both cubic-bezier(0.45, 0.05, 0.55, 0.95);
+}
+
+@-webkit-keyframes like-animation {
+    0% {
+        transform: scale(0);
+    }
+
+    15% {
+        transform: scale(1.25);
+    }
+
+    32% {
+        transform: scale(0.95);
+    }
+
+    50% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes like-animation {
+    0% {
+        transform: scale(0);
+    }
+
+    15% {
+        transform: scale(1.25);
+    }
+
+    32% {
+        transform: scale(0.95);
+    }
+
+    50% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.unliked .like-icon-state {
+    opacity: 0;
+    -webkit-animation: 1.2s unlike-animation both cubic-bezier(0.45, 0.05, 0.55, 0.95);
+    animation: 1.2s unlike-animation both cubic-bezier(0.45, 0.05, 0.55, 0.95);
+}
+
+@-webkit-keyframes unlike-animation {
+    0% {
+        transform: scale(0);
+    }
+
+    15% {
+        transform: scale(1.1);
+    }
+
+    30% {
+        transform: scale(0.98);
+    }
+
+    45% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes unlike-animation {
+    0% {
+        transform: scale(0);
+    }
+
+    15% {
+        transform: scale(1.1);
+    }
+
+    30% {
+        transform: scale(0.98);
+    }
+
+    45% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.liked {
+    background: #e2e2e2;
+    -webkit-animation: 1.2s liked-bg-animation both;
+    animation: 1.2s liked-bg-animation both;
+}
+
+@-webkit-keyframes liked-bg-animation {
+    0% {
+        transform: scale(0);
+    }
+
+    15% {
+        transform: scale(1.1);
+    }
+
+    30% {
+        transform: scale(0.95);
+    }
+
+    50% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes liked-bg-animation {
+    0% {
+        transform: scale(0);
+    }
+
+    15% {
+        transform: scale(1.1);
+    }
+
+    30% {
+        transform: scale(0.95);
+    }
+
+    50% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.unliked {
+    -webkit-animation: 1.2s unliked-bg-animation both;
+    animation: 1.2s unliked-bg-animation both;
+}
+
+@-webkit-keyframes unliked-bg-animation {
+    0% {
+        transform: scale(0);
+    }
+
+    10% {
+        transform: scale(0.7);
+    }
+
+    30% {
+        transform: scale(0.95);
+    }
+
+    50% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes unliked-bg-animation {
+    0% {
+        transform: scale(0);
+    }
+
+    10% {
+        transform: scale(0.7);
+    }
+
+    30% {
+        transform: scale(0.95);
+    }
+
+    50% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.like::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.75);
+    transform: scale(0);
+}
+
+.liked::before {
+    -webkit-animation: 1.2s bg-ring-animation both;
+    animation: 1.2s bg-ring-animation both;
+}
+
+@-webkit-keyframes bg-ring-animation {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    10% {
+        transform: scale(1.5);
+        opacity: 0.25;
+    }
+
+    15% {
+        transform: scale(2);
+        opacity: 0.15;
+    }
+
+    45% {
+        transform: scale(3.25);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+@keyframes bg-ring-animation {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    10% {
+        transform: scale(1.5);
+        opacity: 0.25;
+    }
+
+    15% {
+        transform: scale(2);
+        opacity: 0.15;
+    }
+
+    45% {
+        transform: scale(3.25);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+.saving::after {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    width: 60%;
+    height: 60%;
+    border: 0.15em solid rgba(100, 100, 100, 0.5);
+    border-radius: 50%;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    -webkit-animation: spin-animation 400ms infinite linear;
+    animation: spin-animation 400ms infinite linear;
+}
+
+@-webkit-keyframes spin-animation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin-animation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* /Like Button End */
+
+
+/* Countdown Start*/
+#countdowntimer {
+    width: 470px !important;
+    margin: 0 auto !important;
+    font-size: 16px !important;
+    letter-spacing: 5px !important;
+    background-color: none !important;
+}
+
+#countdowntimer .future_date {
+    margin-top: 7px;
+    color: #FFF;
+    font-weight: 700 !important;
+}
+
+/* Countdown End*/
+
+
+
+.button-bid {
+    color: #fff !important;
+    background-color: #1E50FF;
+    border: 1px solid #1E50FF;
+    border-radius: 16px;
+    padding: 8px 51.5px;
+    transition: all 0.8s;
+}
+
+.button-bid:hover {
+    background-color: inherit;
+}
+
+.icon-flame {
+    background: url("/assests/img/icon/icon-flame.png") no-repeat;
+    width: 24px;
+    height: 24px;
+}
+
+/*********************** /Live Auctions End ***********************/
+
+
+
+/*********************** Featured Artist Start ***********************/
+
+.fea_artist .user .user-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.fea_artist .user .check {
+    width: 26px;
+    height: 26px;
+    right: 35px;
+}
+
+.icon-eth {
+    background: url("/assests/img/icon/ethereum-classik.png") no-repeat;
+    width: 24px;
+    height: 24px;
+}
+
+/*********************** Featured Artist END ***********************/
+
+
+/*********************** Hot NFTs  Start ***********************/
+.each-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.filter-buttons button {
+    color: #FFFFFF;
+    background-color: #1E50FF1A;
+    padding: 16px 37.5px;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    margin: 10px 12px;
+}
+
+.filter-buttons button:focus {
+    background-color: #1E50FF;
+    box-shadow: none;
+}
+
+.pagination .page-item {
+    padding: 4px;
+}
+
+.pagination .page-link {
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    border: none !important;
+    border-radius: 50% !important;
+
+}
+
+.pagination .page-link:hover {
+    background-color: #1E50FF;
+}
+
+.pagination .page-item:first-child a {
+    background-color: #B8C1CC;
+}
+
+.pagination .page-item:last-child a {
+    margin-left: 10px;
+    background-color: #1E50FF;
+}
+
+.pagnation-line {
+    border-radius: 11px;
+}
+
+/*********************** /Hot NFTs  End ***********************/
+
+
+/* Create Your Own NFT! Start */
+.crt_nft a {
+    color: #1E50FF !important;
+    background-color: #fff;
+    font-weight: 600;
+    border: 1px solid #fff;
+    border-radius: 16px;
+    transition: all 0.6s;
+}
+
+.crt_nft a:hover {
+    color: #fff !important;
+    background-color: transparent !important;
+}
+
+/* /Create Your Own NFT! End */
+
+
+/* Footer Start */
+
+footer ul li {
+    margin: 16px 0px;
+}
+
+footer ul li a {
+    color: #ADB9C7 !important;
+    transition: all 0.5s;
+}
+
+footer ul li a:hover {
+    color: #1E50FF !important;
+}
+
+footer .social-platform a img {
+    width: 32px;
+    height: 32px;
+}
+
+/* Footer End */
+
+/* responsive */
+@media screen and (max-width:768px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+}
+
+/********************---------- Discover CSS Start ----------********************/
+/* Explore Collectibles Start*/
+.explore_collectibles .search-icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    right: 0px;
+    display: inline-block;
+    padding: 16px 0px;
+    padding-right: 60px;
+}
+
+.explore_collectibles input {
+    box-shadow: none;
+    border: 1px solid #fff !important;
+    border-radius: 16px !important;
+    font-size: 24px;
+    font-weight: 500;
+    background: rgba(255, 255, 255, 0.1);
+    color: #8F9CA9;
+    outline-color: #fff;
+}
+
+.icon-search {
+    background: url("/assests/img/icon/search.png") no-repeat;
+    width: 40px;
+    height: 40px;
+}
+
+@media screen and (max-width:768px) {
+    .explore_collectibles input {
+        font-size: 14px;
+    }
+
+    .explore_collectibles .search-icon {
+        padding: 8px 50px 6px 0px;
+    }
+}
+
+.btn-group,
+.filter-btn {
+    background: rgba(30, 80, 255, 0.1);
+    border: 1px solid #1E50FF !important;
+    padding: 16px 32px;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.filter-btn:focus {
+    box-shadow: none;
+}
+
+.card:hover .overlay img {
+    filter: blur(13px);
+    transition: all 0.5s;
+}
+
+.card-blur-button {
+    display: none !important;
+    margin-left: -18px;
+    z-index: 3;
+}
+
+.card:hover .card-blur-button {
+    display: flex !important;
+}
+
+.card-timer {
+    bottom: 40px;
+}
+
+.explore_collectibles .countdowntimer, .nft-about .countdowntimer,.another_nfts .countdowntimer {
+    width: 200px !important;
+    background-color: #0F182E;
+    margin-left: -40px;
+
+}
+
+
+.card-body h4 {
+    font-size: 17px !important;
+}
+
+/* /Explore Collectibles End*/
+.h-16 {
+    height: 16px;
+}
+
+/********************---------- Discover CSS End ----------********************/
+
+/********************---------- Discover-item CSS Start ----------********************/
+
+.nft-about .user {
+    background-color: #272D37;
+    border-radius: 16px;
+}
+
+.nft-about .nft-about-button a {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16px 80px;
+    border: 1px solid #1E50FF;
+}
+
+.nft-about .nft-about-button a:first-child {
+    border: 1px solid #1E50FF;
+}
+
+.nft-about .nft-about-button a:last-child {
+    background-color: #1E50FF;
+}
+
+.user-check {
+    bottom: -9px;
+    left: 45px;
+}
+
+.scroll {
+    overflow: auto;
+    height: 170px;
+}
+
+
+.nft-price span {
+    font-size: 24px;
+}
+
+
+
+
+
+
+.chart__container {
+    border-radius: 8px;
+    padding: 30px;
+    background-color: #273241;
+    width: 100%;
+    display: inline-block;
+    box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.2);
+    background-color: #0F182E;
+}
+
+.chart__container canvas {
+    background-color: #0F182E;
+}
+
+
+@media screen and (max-width:768px) {
+    .nft-about .nft-about-button a {
+        width: 100%;
+        margin: 10px 0px;
+    }
+
+    .description {
+        width: 90% !important;
+    }
+
+    .nft-price span {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:568px) {
+    .card-offers h6 {
+        font-size: 13px;
+    }
+
+    .card-offers span {
+        font-size: 10px;
+    }
+}
+
+/********************---------- Discover-item CSS End ----------********************/
