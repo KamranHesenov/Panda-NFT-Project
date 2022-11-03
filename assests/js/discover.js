@@ -29,9 +29,3 @@ function searchItems(){
     }
   })
 }
-
-
-// CountDownTimer
-$('.future_date').countdowntimer({
-  dateAndTime: "2023/09/17 20:00:00",
-});

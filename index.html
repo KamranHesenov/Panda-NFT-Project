@@ -11,12 +11,11 @@
   <meta name="author" content="Kamran Hasanov">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="assests/css/vendor/bootstrap.css">
-  <!-- Carouse css -->
-  <link rel="stylesheet" href="assests/css/vendor/owl.carousel.min.css">
-  <link rel="stylesheet" href="assests/css/vendor/owl.theme.default.min.css">
+  <!-- Swiper Carousel css -->
+  <link rel="stylesheet" href="assests/css/vendor/swiper-bundle.min.css">
+
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.5.0/tailwind.min.css">
-  <!-- CountDown Timer -->
-  <link rel="stylesheet" href="assests/js/vendor/multi-countdown.js">
   <!-- Style Css -->
   <link rel="stylesheet" href="assests/css/style.css">
   <title>Panda NFT - Home</title>
@@ -132,53 +131,30 @@
           </div>
         </div>
       </div>
-      <!-- Carousel Start -->
-      <div class="ftco-section my-5">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-12 px-0">
-              <div class="featured-carousel owl-carousel">
-                <div class="item">
-                  <div class="work">
-                    <div class="img d-flex align-items-center justify-content-center"
-                      style="background-image: url(assests/img/Nft-Cards/nft1.png);">
-                    </div>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="work">
-                    <div class="img d-flex align-items-center justify-content-center"
-                      style="background-image: url(assests/img/Nft-Cards/nft2.png);">
-                    </div>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="work">
-                    <div class="img d-flex align-items-center justify-content-center"
-                      style="background-image: url(assests/img/Nft-Cards/nft3.png);">
-                    </div>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="work">
-                    <div class="img d-flex align-items-center justify-content-center"
-                      style="background-image: url(assests/img/Nft-Cards/nft1.png);">
-                    </div>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="work">
-                    <div class="img d-flex align-items-center justify-content-center"
-                      style="background-image: url(assests/img/Nft-Cards/nft3.png);">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+
+      <!-- Swiper Carousel Start -->
+      <div class="swiper mySwiper mt-5">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="assests/img/Nft-Cards/nft1.png" alt="nft">
+          </div>
+          <div class="swiper-slide">
+            <img src="assests/img/Nft-Cards/nft2.png" alt="nft">
+          </div>
+          <div class="swiper-slide">
+            <img src="assests/img/Nft-Cards/nft3.png" alt="nft">
+          </div>
+          <div class="swiper-slide">
+            <img src="assests/img/Nft-Cards/nft2.png" alt="nft">
+          </div>
+          <div class="swiper-slide">
+            <img src="assests/img/Nft-Cards/nft3.png" alt="nft">
           </div>
         </div>
+        <div class="swiper-pagination"></div>
       </div>
-      <!-- Carousel End -->
+      <!-- Swiper Carousel End -->
+
 
       <div class="container">
         <div class="row portfolio justify-content-center gy-4 mt-5 pt-5">
@@ -303,7 +279,8 @@
                 </div>
 
                 <div class="d-flex justify-content-between countdown mt-4" data-Date='2022/12/14 11:37:53'>
-                  <div class="countdowntimer py-2 running rounded-pill d-inline-block text-center d-flex align-items-center">
+                  <div
+                    class="countdowntimer py-2 running rounded-pill d-inline-block text-center d-flex align-items-center">
                     <span class="d-inline-flex icon-flame"></span>
                     <timer class="timer ms-2 pt-2">
                       <span class="days"></span>:<span class="hours"></span>:<span class="minutes"></span>:<span
@@ -361,7 +338,8 @@
                 </div>
 
                 <div class="d-flex justify-content-between countdown mt-4" data-Date='2023/06/12 11:37:53'>
-                  <div class="countdowntimer py-2 running rounded-pill d-inline-block text-center d-flex align-items-center">
+                  <div
+                    class="countdowntimer py-2 running rounded-pill d-inline-block text-center d-flex align-items-center">
                     <span class="d-inline-flex icon-flame"></span>
                     <timer class="timer ms-2 pt-2">
                       <span class="days"></span>:<span class="hours"></span>:<span class="minutes"></span>:<span
@@ -419,7 +397,8 @@
                 </div>
 
                 <div class="d-flex justify-content-between countdown mt-4" data-Date='2023/12/22 11:37:53'>
-                  <div class="countdowntimer py-2 running rounded-pill d-inline-block text-center d-flex align-items-center">
+                  <div
+                    class="countdowntimer py-2 running rounded-pill d-inline-block text-center d-flex align-items-center">
                     <span class="d-inline-flex icon-flame"></span>
                     <timer class="timer ms-2 pt-2">
                       <span class="days"></span>:<span class="hours"></span>:<span class="minutes"></span>:<span
@@ -602,7 +581,8 @@
                 </div>
 
                 <div class="d-flex justify-content-between countdown mt-4" data-Date='2023/10/22 11:37:53'>
-                  <div class="countdowntimer py-2 running rounded-pill d-inline-block text-center d-flex align-items-center">
+                  <div
+                    class="countdowntimer py-2 running rounded-pill d-inline-block text-center d-flex align-items-center">
                     <span class="d-inline-flex icon-flame"></span>
                     <timer class="timer ms-2 pt-2">
                       <span class="days"></span>:<span class="hours"></span>:<span class="minutes"></span>:<span
@@ -661,7 +641,8 @@
                 </div>
 
                 <div class="d-flex justify-content-between countdown mt-4" data-Date='2023/10/01 11:37:53'>
-                  <div class="countdowntimer py-2 running rounded-pill d-inline-block text-center d-flex align-items-center">
+                  <div
+                    class="countdowntimer py-2 running rounded-pill d-inline-block text-center d-flex align-items-center">
                     <span class="d-inline-flex icon-flame"></span>
                     <timer class="timer ms-2 pt-2">
                       <span class="days"></span>:<span class="hours"></span>:<span class="minutes"></span>:<span
@@ -720,7 +701,8 @@
                 </div>
 
                 <div class="d-flex justify-content-between countdown mt-4" data-Date='2022/12/06 11:37:53'>
-                  <div class="countdowntimer py-2 running rounded-pill d-inline-block text-center d-flex align-items-center">
+                  <div
+                    class="countdowntimer py-2 running rounded-pill d-inline-block text-center d-flex align-items-center">
                     <span class="d-inline-flex icon-flame"></span>
                     <timer class="timer ms-2 pt-2">
                       <span class="days"></span>:<span class="hours"></span>:<span class="minutes"></span>:<span
@@ -779,7 +761,8 @@
                 </div>
 
                 <div class="d-flex justify-content-between countdown mt-4" data-Date='2022/12/22 11:37:53'>
-                  <div class="countdowntimer py-2 running rounded-pill d-inline-block text-center d-flex align-items-center">
+                  <div
+                    class="countdowntimer py-2 running rounded-pill d-inline-block text-center d-flex align-items-center">
                     <span class="d-inline-flex icon-flame"></span>
                     <timer class="timer ms-2 pt-2">
                       <span class="days"></span>:<span class="hours"></span>:<span class="minutes"></span>:<span
@@ -838,7 +821,8 @@
                 </div>
 
                 <div class="d-flex justify-content-between countdown mt-4" data-Date='2023/04/22 11:37:53'>
-                  <div class="countdowntimer py-2 running rounded-pill d-inline-block text-center d-flex align-items-center">
+                  <div
+                    class="countdowntimer py-2 running rounded-pill d-inline-block text-center d-flex align-items-center">
                     <span class="d-inline-flex icon-flame"></span>
                     <timer class="timer ms-2 pt-2">
                       <span class="days"></span>:<span class="hours"></span>:<span class="minutes"></span>:<span
@@ -897,7 +881,8 @@
                 </div>
 
                 <div class="d-flex justify-content-between countdown mt-4" data-Date='2023/12/22 11:37:53'>
-                  <div class="countdowntimer py-2 running rounded-pill d-inline-block text-center d-flex align-items-center">
+                  <div
+                    class="countdowntimer py-2 running rounded-pill d-inline-block text-center d-flex align-items-center">
                     <span class="d-inline-flex icon-flame"></span>
                     <timer class="timer ms-2 pt-2">
                       <span class="days"></span>:<span class="hours"></span>:<span class="minutes"></span>:<span
@@ -956,7 +941,8 @@
                 </div>
 
                 <div class="d-flex justify-content-between countdown mt-4" data-Date='2024/05/22 11:37:53'>
-                  <div class="countdowntimer py-2 running rounded-pill d-inline-block text-center d-flex align-items-center">
+                  <div
+                    class="countdowntimer py-2 running rounded-pill d-inline-block text-center d-flex align-items-center">
                     <span class="d-inline-flex icon-flame"></span>
                     <timer class="timer ms-2 pt-2">
                       <span class="days"></span>:<span class="hours"></span>:<span class="minutes"></span>:<span
@@ -1015,7 +1001,8 @@
                 </div>
 
                 <div class="d-flex justify-content-between countdown mt-4" data-Date='2022/11/10 11:37:53'>
-                  <div class="countdowntimer py-2 running rounded-pill d-inline-block text-center d-flex align-items-center">
+                  <div
+                    class="countdowntimer py-2 running rounded-pill d-inline-block text-center d-flex align-items-center">
                     <span class="d-inline-flex icon-flame"></span>
                     <timer class="timer ms-2 pt-2">
                       <span class="days"></span>:<span class="hours"></span>:<span class="minutes"></span>:<span
@@ -1074,7 +1061,8 @@
                 </div>
 
                 <div class="d-flex justify-content-between countdown mt-4" data-Date='2023/01/22 11:37:53'>
-                  <div class="countdowntimer py-2 running rounded-pill d-inline-block text-center d-flex align-items-center">
+                  <div
+                    class="countdowntimer py-2 running rounded-pill d-inline-block text-center d-flex align-items-center">
                     <span class="d-inline-flex icon-flame"></span>
                     <timer class="timer ms-2 pt-2">
                       <span class="days"></span>:<span class="hours"></span>:<span class="minutes"></span>:<span
@@ -1133,7 +1121,8 @@
                 </div>
 
                 <div class="d-flex justify-content-between countdown mt-4" data-Date='2023/02/15 11:37:53'>
-                  <div class="countdowntimer py-2 running rounded-pill d-inline-block text-center d-flex align-items-center">
+                  <div
+                    class="countdowntimer py-2 running rounded-pill d-inline-block text-center d-flex align-items-center">
                     <span class="d-inline-flex icon-flame"></span>
                     <timer class="timer ms-2 pt-2">
                       <span class="days"></span>:<span class="hours"></span>:<span class="minutes"></span>:<span
@@ -1192,7 +1181,8 @@
                 </div>
 
                 <div class="d-flex justify-content-between countdown mt-4" data-Date='2023/03/22 11:37:53'>
-                  <div class="countdowntimer py-2 running rounded-pill d-inline-block text-center d-flex align-items-center">
+                  <div
+                    class="countdowntimer py-2 running rounded-pill d-inline-block text-center d-flex align-items-center">
                     <span class="d-inline-flex icon-flame"></span>
                     <timer class="timer ms-2 pt-2">
                       <span class="days"></span>:<span class="hours"></span>:<span class="minutes"></span>:<span
@@ -1251,7 +1241,8 @@
                 </div>
 
                 <div class="d-flex justify-content-between countdown mt-4" data-Date='2023/08/14 11:37:53'>
-                  <div class="countdowntimer py-2 running rounded-pill d-inline-block text-center d-flex align-items-center">
+                  <div
+                    class="countdowntimer py-2 running rounded-pill d-inline-block text-center d-flex align-items-center">
                     <span class="d-inline-flex icon-flame"></span>
                     <timer class="timer ms-2 pt-2">
                       <span class="days"></span>:<span class="hours"></span>:<span class="minutes"></span>:<span
@@ -1395,15 +1386,16 @@
   <script src="assests/js/vendor/bootstrap.js"></script>
   <!-- Jquery -->
   <script src="assests/js/vendor/jquery.min.js"></script>
-  <!-- Carousel JS -->
-  <script src="assests/js/vendor/owl.carousel.min.js"></script>
-  <script src="assests/js/vendor/popper.js"></script>
+  <!-- Swiper Carousel JS -->
+  <script src="assests/js/vendor/swiper-bundle.min.js"></script>
   <!-- like button cdn -->
   <script src='https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js'></script>
   <!-- CountdownTimer -->
-  <script src='https://harshen.github.io/jquery-countdownTimer/jquery.countdownTimer.js'></script>
+  <script src="assests/js/vendor/multi-countdown.js"></script>
+  <!-- <script src='https://harshen.github.io/jquery-countdownTimer/jquery.countdownTimer.js'></script> -->
   <!-- Js -->
   <script src="assests/js/style.js"></script>
+  <script src="assests/js/main.js"></script>
 </body>
 
 </html>
